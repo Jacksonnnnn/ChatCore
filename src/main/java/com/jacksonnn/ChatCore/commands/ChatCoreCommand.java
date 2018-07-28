@@ -62,7 +62,7 @@ public abstract class ChatCoreCommand implements SubCommand {
     }
 
     public boolean hasPermission(CommandSender sender) {
-        if (sender.hasPermission("guilds.command." + name)) {
+        if (sender.hasPermission("chatcore.command." + name)) {
             return true;
         } else {
             GeneralMethods.sendMessage(sender, "error", this.noPermissionMessage);
@@ -71,7 +71,7 @@ public abstract class ChatCoreCommand implements SubCommand {
     }
 
     public boolean hasPermission(CommandSender sender, String extra) {
-        if (sender.hasPermission("guilds.command." + name + "." + extra)) {
+        if (sender.hasPermission("chatcore.command." + name + "." + extra)) {
             return true;
         } else {
             GeneralMethods.sendMessage(sender, "error", this.noPermissionMessage);

@@ -25,6 +25,7 @@ public class Commands {
         new MuteCommand();
         new ChannelsCommand();
         new BannedWordsCommand();
+        new GlobalMuteCommand();
 
         CommandExecutor exe = new CommandExecutor() {
             @Override

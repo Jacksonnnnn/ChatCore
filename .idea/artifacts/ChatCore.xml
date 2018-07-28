@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ChatCore">
+    <output-path>$USER_HOME$/Desktop/MC Plugins</output-path>
+    <root id="archive" name="ChatCore.jar">
+      <element id="module-output" name="1" />
+    </root>
+  </artifact>
+</component>

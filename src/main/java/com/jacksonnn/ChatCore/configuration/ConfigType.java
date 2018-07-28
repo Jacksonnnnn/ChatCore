@@ -8,7 +8,8 @@ public class ConfigType {
 
     public static final ConfigType DEFAULT = new ConfigType("Default");
     public static final ConfigType LANGUAGE = new ConfigType("Language");
-    public static final ConfigType[] CORE_TYPES = { DEFAULT, LANGUAGE };
+    public static final ConfigType ANTICURSE = new ConfigType("AntiCurse");
+    public static final ConfigType[] CORE_TYPES = { DEFAULT, LANGUAGE, ANTICURSE };
 
     private String string;
 
