@@ -1,0 +1,12 @@
+name: ChatCore
+version: ${project.version}
+main: com.jacksonnn.ChatCore.ChatCore
+load: STARTUP
+loadbefore: [Essentials]
+authors: [Jacksonnn]
+description: A core group of chat features.
+commands:
+    guilds:
+        aliases: [cc, core, chatc]
+        usage: /<command>
+        description: General command for the ChatCore plugin!
